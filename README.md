@@ -54,7 +54,7 @@ Stetoskop ses kayıtlarından özelliklerin çıkarılması için Librosa kütü
 İlk adımda, stetoskop ses kayıtları önceden işlenir. Kayıtlar, zaman serileri olarak temsil edilir ve üzerinde MFCC hesaplamaları yapılabilir hale getirilir. Bu adım, ses kayıtlarının frekans spektrumlarını temsil eden mel spektrogramlarını elde etmek için gerçekleştirilir. <br>
 <div align="center">
 	<img src= "https://pub.mdpi-res.com/sensors/sensors-22-01521/article_deploy/html/images/sensors-22-01521-g003-550.jpg?1645001655">
-<div>
+</div>
 
 ## LSTM Modeli:
 LSTM (Long Short-Term Memory), zaman serileri analizi için kullanılan bir derin öğrenme modelidir. LSTM, birçok katmandan oluşan bir sinir ağı yapısına sahiptir ve her bir katman, bir önceki katmandan aldığı çıktıları bir sonraki katmana aktarır.
