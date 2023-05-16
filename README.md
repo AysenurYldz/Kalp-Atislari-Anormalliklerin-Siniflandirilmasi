@@ -42,8 +42,8 @@ Normal kalp atışları sınıfı, sağlıklı bireylerin kalp atışı ses kay�
 Anormal kalp atışları sınıfı ise çeşitli anormallikleri temsil etmek üzere oluşturulmuştur. Bu sınıf, farklı hastalıklardan muzdarip bireylerin kalp atışı ses kayıtlarını içerir. Örneğin, üflemeler, galoplar ve tıklamalar gibi farklı tiplerde kalp atışları bu sınıfın içerisindedir. Anormal kalp atışları, genellikle düzensizlikler veya kalp rahatsızlıklarının belirtilerini yansıtan özelliklere sahiptir.
 
 Toplamda, veri seti 500 kayıttan oluşmaktadır. Bu kayıtlar, önde gelen tıbbi kuruluşlar tarafından kabul edilen standartlar doğrultusunda toplanmıştır. Veri seti, farklı hastalıklardan muzdarip olan hastalardan elde edilen stetoskop ses kayıtlarını içerir. 
-Bu veri seti, kalp atışlarının anormalliklerini sınıflandırmak için kullanılan aracın eğitiminde ve değerlendirilmesinde kullanılmıştır. Veri setinin çeşitliliği ve kalitesi, aracın doğruluk oranını ve performansını etkileyen önemli faktörlerdir. Bu nedenle, veri setinin titizlikle toplanması ve temsil edilen sınıfların dengeli bir şekilde dağıtılması sağlanmıştır.<br> **Veri setinin linki aşağıda verilmiştir:**<br>
-<a href = "https://www.kaggle.com/datasets/kinguistics/heartbeat-sounds">Heartbeat Sounds Dataset </a>
+Bu veri seti, kalp atışlarının anormalliklerini sınıflandırmak için kullanılan aracın eğitiminde ve değerlendirilmesinde kullanılmıştır. Veri setinin çeşitliliği ve kalitesi, aracın doğruluk oranını ve performansını etkileyen önemli faktörlerdir. Bu nedenle, veri setinin titizlikle toplanması ve temsil edilen sınıfların dengeli bir şekilde dağıtılması sağlanmıştır.<br> **Veri setinin linki yanda verilmiştir:**
+<a href = "https://www.kaggle.com/datasets/kinguistics/heartbeat-sounds">Heartbeat Sounds Dataset</a>
 
 ## Yöntem:
 
