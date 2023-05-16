@@ -49,18 +49,18 @@ Bu veri seti, kalp atışlarının anormalliklerini sınıflandırmak için kull
 
 Bu projede, MFCC (Mel-Frequency Cepstral Coefficients) ve LSTM (Long Short-Term Memory) modeli kullanılarak kalp atışlarının sınıflandırılması gerçekleştirilir.
 
-## CMFCC Özellik Çıkarımı:
+### CMFCC Özellik Çıkarımı:
 Stetoskop ses kayıtlarından özelliklerin çıkarılması için Librosa kütüphanesi kullanılır. Librosa, ses işleme için kullanılan bir Python kütüphanesidir ve MFCC hesaplamalarını yapmak için uygun fonksiyonlara sahiptir.
 İlk adımda, stetoskop ses kayıtları önceden işlenir. Kayıtlar, zaman serileri olarak temsil edilir ve üzerinde MFCC hesaplamaları yapılabilir hale getirilir. Bu adım, ses kayıtlarının frekans spektrumlarını temsil eden mel spektrogramlarını elde etmek için gerçekleştirilir. <br>
 <div align="center">
 	<img src= "https://pub.mdpi-res.com/sensors/sensors-22-01521/article_deploy/html/images/sensors-22-01521-g003-550.jpg?1645001655">
 </div>
 
-## LSTM Modeli:
+### LSTM Modeli:
 LSTM (Long Short-Term Memory), zaman serileri analizi için kullanılan bir derin öğrenme modelidir. LSTM, birçok katmandan oluşan bir sinir ağı yapısına sahiptir ve her bir katman, bir önceki katmandan aldığı çıktıları bir sonraki katmana aktarır.
 Mel spektrogramları, LSTM modeline giriş olarak verilir. Model, bu spektrogramları kullanarak stetoskop ses kayıtlarını normal veya anormal kalp atışlarına göre sınıflandırmayı öğrenir.
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/LSTM_Cell.svg/1920px-LSTM_Cell.svg.png">
-## Eğitim ve Değerlendirme:
+### Eğitim ve Değerlendirme:
 Veri seti, eğitim ve test kümelerine ayrılır. Eğitim kümesi, modelin öğrenmesi için kullanılırken, test kümesi, eğitilen modelin performansını değerlendirmek için kullanılır.
 Eğitim sürecinde, LSTM modeli, eğitim kümesindeki örnekleri kullanarak ağırlıklarını ve parametrelerini ayarlar. Bu adım, modelin veriler arasındaki örüntüleri anlamasını sağlar.
 
